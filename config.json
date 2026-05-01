@@ -1,0 +1,67 @@
+{
+  "bot": {
+    "name": "PoolStreamer",
+    "version": "1.0.0",
+    "color": {
+      "primary": "#5865F2",
+      "success": "#57F287",
+      "error": "#ED4245",
+      "warning": "#FEE75C",
+      "info": "#5865F2",
+      "music": "#1DB954"
+    },
+    "emoji": {
+      "play": "▶️",
+      "pause": "⏸️",
+      "skip": "⏭️",
+      "stop": "⏹️",
+      "loop": "🔁",
+      "like": "❤️",
+      "dislike": "👎",
+      "queue": "📃",
+      "leave": "❌",
+      "volume": "🔊",
+      "search": "🔍",
+      "music": "🎵",
+      "success": "✅",
+      "error": "❌",
+      "warning": "⚠️",
+      "loading": "⏳",
+      "autoplay": "♾️",
+      "twentyfourseven": "🌙"
+    },
+    "progressBar": {
+      "length": 20,
+      "filled": "█",
+      "empty": "░",
+      "thumb": "🔵"
+    }
+  },
+  "music": {
+    "defaultVolume": 80,
+    "maxVolume": 150,
+    "maxQueueSize": 500,
+    "maxSongDuration": 10800,
+    "searchEngine": "youtube",
+    "autoplaySource": "youtube",
+    "leaveCooldown": 30000,
+    "twentyFourSevenChannelTimeout": 0
+  },
+  "lavalink": {
+    "clientName": "PoolStreamer",
+    "reconnectTries": 5,
+    "reconnectTimeout": 5000,
+    "resumeByLibrary": true
+  },
+  "permissions": {
+    "adminPerms": ["Administrator", "ManageGuild"],
+    "djPerms": ["ManageChannels"],
+    "commandCooldown": 3000,
+    "antiSpamThreshold": 5,
+    "antiSpamWindow": 10000
+  },
+  "database": {
+    "cacheTimeout": 300000,
+    "maxCacheSize": 1000
+  }
+}
